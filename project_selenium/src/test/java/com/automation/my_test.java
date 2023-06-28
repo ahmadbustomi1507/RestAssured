@@ -13,7 +13,7 @@ public class my_test {
 
     @BeforeTest
     public void set_driver() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Selenium_Driver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\seleniumDriver\\113\\chromedriver.exe");
     }
 
     @Test

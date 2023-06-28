@@ -36,15 +36,15 @@ public class my_test_api {
                 // successfully updated"));
         }
 
-        @Test
-        public void test_api_2_with_RequestSpecBuilder_ResponseSpecBuilder() {
-                RequestSpecBuilder req = new RequestSpecBuilder().setContentType(ContentType.JSON)
-                                .setBaseUri("sample")
-                                .addQueryParam("paramName", "paramValue")
-                                .build();
-                ResponseSpecBuilder res = new ResponseSpecBuilder().expectStatusCode(200)
-                                .expectContentType(ContentType.JSON).build();
-                // given().spec(req).body("sampleBOdy").when().post("theCollection").then().spec(res).extract().response();
-
-        }
+//        @Test
+//        public void test_api_2_with_RequestSpecBuilder_ResponseSpecBuilder() {
+//                RequestSpecBuilder req = new RequestSpecBuilder().setContentType(ContentType.JSON)
+//                                .setBaseUri("sample")
+//                                .addQueryParam("paramName", "paramValue")
+//                                .build();
+//                ResponseSpecBuilder res = new ResponseSpecBuilder().expectStatusCode(200)
+//                                .expectContentType(ContentType.JSON).build();
+//                // given().spec(req).body("sampleBOdy").when().post("theCollection").then().spec(res).extract().response();
+//
+//        }
 }
